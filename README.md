@@ -47,11 +47,15 @@ Switched to a new branch 'develop'
 M       README.md
 
 
+9) git add .
 
+10) git commit -m "first commit develop branch"
 
+11) git push --set-upstream origin develop
 
+12) git checkout -b feature1_develop
 
-
+13) git push --set-upstream origin feature1_develop
 
 
 
