@@ -57,8 +57,33 @@ M       README.md
 
 13) git push --set-upstream origin feature1_develop
 
+14) git add.
+
+15) git commit -m "commit from feature"
+
+16)git branch -a
+  develop
+* feature1_develop
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/develop
+  remotes/origin/feature1_develop
+  remotes/origin/master
+
+  
+17) git merge feature1_develop
+Updating d5aba4d..68d1deb
+Fast-forward
+ README.md | 13 ++++++++++++
 
 
+ 
+ Revert previous merge
+ Be aware that any modified and uncommitted/unstashed files will be reset to their unmodified state.
+
+18) git reset --hard HEAD~1
+HEAD is now at d5aba4d commit from feature
+  
 
 
 
