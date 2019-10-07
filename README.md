@@ -83,6 +83,9 @@ Fast-forward
 
 18) git reset --hard HEAD~1
 HEAD is now at d5aba4d commit from feature
+
+
+
   
 
 
