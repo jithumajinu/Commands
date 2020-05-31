@@ -1,5 +1,9 @@
 # GitCommands
 
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+git config --global user.email "MY_NAME@example.com"
+
 1) git clone https://github.com/jithumajinu/GitCommands.git
 
 2) git status
