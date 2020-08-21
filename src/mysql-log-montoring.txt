@@ -1,0 +1,30 @@
+https://dev.mysql.com/doc/refman/8.0/en/query-log.html#:~:text=To%20disable%20or%20enable%20the,or%20ON%20)%20to%20enable%20it.
+
+shell> mv host_name.log host_name-old.log
+shell> mysqladmin flush-logs
+shell> mv host_name-old.log backup-directory
+
+
+=> mysql -u root -p
+
+enter password
+
+
+You can also rename the general query log file at runtime by disabling the log:
+
+=> SET GLOBAL general_log = 'OFF';
+With the log disabled, rename the log file externally (for example, from the command line). Then enable the log again:
+
+=> SET GLOBAL general_log = 'ON';
+
+
+/usr/local/mysql/data/jithupm-PC-177.log  change mode to read only.
+
+Terminal monitoring ->
+tail -f  /usr/local/mysql/data/jithupm-PC-177.log
+
+OR
+
+monitoring  through Mysqlworkbench  administation-> click server status. we can see error-log and general log is ON.
+and click SERVER LOGS.
+
