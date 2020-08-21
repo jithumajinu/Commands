@@ -28,3 +28,6 @@ OR
 monitoring  through Mysqlworkbench  administation-> click server status. we can see error-log and general log is ON.
 and click SERVER LOGS.
 
+This method works on any platform and does not require a server restart.
+
+To disable or enable general query logging for the current session, set the session sql_log_off variable to ON or OFF. (This assumes that the general query log itself is enabled.
